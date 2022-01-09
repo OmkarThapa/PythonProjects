@@ -1,8 +1,8 @@
 def range_check(n,lowest,highest):
     '''
     Function checks is it low or high from given range.
-    This function accept 3 parameter to first is the number which we have to check and other two is the range.
-    if the number not between two number return false. 
+    This function accept 3 parameter to first is the number which we have to check followed by two is the range.
+    if the number not between two number print not in range. 
     
     '''
     if n in range(lowest,highest+1):
