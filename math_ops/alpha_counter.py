@@ -5,17 +5,16 @@ def alpha_counter(str):
     Also, count cases of alphabets
     
     '''
-    lowercounter= 0
-    uppercounter=0
+    d={'upper':0 , 'lower':0}
     
     for alpha in str:
         if alpha.isupper():
-            uppercounter+=1
+            d['upper']+=1
         elif alpha.islower():
-            lowercounter+=1
+            d['lower']+=1
         else:
             pass
     
-    print(f'{uppercounter} is the count of upper case')
-    print(f'{lowercounter} is the count of lower case')
-    print(f'{uppercounter+lowercounter} is the alphabes')
+    print(f'{d["upper"]} is the count of upper case')
+    print(f'{d["lower"]} is the count of lower case')
+    print(f'{d["upper"]+d["lower"]} is the alphabes')
