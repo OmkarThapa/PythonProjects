@@ -17,3 +17,6 @@ def collatz_conjecture(n):
             value_list.append(n)         
     return value_list
 
+
+
+
