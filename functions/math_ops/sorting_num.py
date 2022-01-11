@@ -9,3 +9,4 @@ def unique_list(num):
         if n1 not in list_of_num:
             list_of_num.append(n1)
     return list_of_num
+
